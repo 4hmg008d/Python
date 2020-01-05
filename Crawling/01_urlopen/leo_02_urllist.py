@@ -31,3 +31,6 @@ with urllib.request.urlopen(url) as response:
     the_page = response.read().decode('utf-8')
 
 print(the_page)
+
+with open('baidu.html', 'w', encoding='utf-8') as f:
+    f.write(the_page)
