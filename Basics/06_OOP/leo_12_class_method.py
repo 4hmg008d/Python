@@ -16,3 +16,4 @@ tool2 = Tool("hammer")
 tool3 = Tool("bucket")
 
 Tool.show_tool_count()
+tool1.show_tool_count()

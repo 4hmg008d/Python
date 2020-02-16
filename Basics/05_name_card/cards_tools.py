@@ -32,7 +32,7 @@ def new_card():
 
     # 3. add name card into list
     card_list.append(card_dict)
-    print(card_list)
+    print(card_dict)
 
     # 4. inform user that the new name card has been successfully added
     print("Successfully added name card for %s" % name_str)
