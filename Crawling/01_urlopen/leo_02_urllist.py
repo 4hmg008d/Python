@@ -4,7 +4,7 @@
 import urllib.request
 import random
 
-url = "https://baike.baidu.com/item/%E6%8A%93%E5%8C%85/9929103"
+url = "https://www.ebay.com.au/"
 
 # 可以是User-Agent列表，也可以是代理列表
 ua_list = [
@@ -32,5 +32,5 @@ with urllib.request.urlopen(url) as response:
 
 print(the_page)
 
-with open('baidu.html', 'w', encoding='utf-8') as f:
+with open('ebay.html', 'w', encoding='utf-8') as f:
     f.write(the_page)
