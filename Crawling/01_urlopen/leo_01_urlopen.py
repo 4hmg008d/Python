@@ -11,7 +11,7 @@ ua_headers = {
 }
 
 # 构造请求对象并发送请求，服务器响应相应的类文件对象
-request = urllib.request.Request("http://www.baidu.com/", headers=ua_headers)
+request = urllib.request.Request("https://www.ebay.com.au/", headers=ua_headers)
 
 response = urllib.request.urlopen(request)
 
@@ -26,4 +26,3 @@ print(response.getcode())
 print(response.geturl())
 
 # 返回服务器相应的HTTP报头
-print()
