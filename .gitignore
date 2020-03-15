@@ -1,12 +1,12 @@
 # Ignore Mac system files
-.DS_store
+*.DS_store
 
 # Ignore virtual environment
-.venv/
+**/.venv
 
 # Ignore vscode profile
-.vscode/
+**/.vscode
 
 # Ignore __pycache__
-__pycache__/
+**/__pycache__
 
